@@ -1,0 +1,41 @@
+/*Header section start*/
+.header_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_content_text {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header_content_text h2 {
+  color: var(--main-color);
+  text-align: center;
+}
+
+.header_content_text p {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: justify;
+  text-align: center;
+}
+
+.header_content img {
+  max-width: 100%;
+}
+
+.do_exam_button {
+  background-color: #589721 !important;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+/*Header section end*/

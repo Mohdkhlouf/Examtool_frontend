@@ -1,0 +1,11 @@
+/*navbar style start*/
+.navbar_logo {
+  width: 10rem;
+}
+
+.navbar_menu_link {
+  color: var(--main-color) !important;
+  padding-left: 1rem;
+}
+
+/*navbar style end*/
